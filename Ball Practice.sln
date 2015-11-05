@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{B7FD6AFB-238F-7633-CA20-B56BEAB15224}") = "Ball Practice", "Assembly-CSharp-firstpass.csproj", "{F8DC6273-A358-E397-EF80-0F736C9F8FEF}"
+EndProject
 Project("{B7FD6AFB-238F-7633-CA20-B56BEAB15224}") = "Ball Practice", "Assembly-CSharp.csproj", "{D2927E23-31DA-E561-2FCC-CEF8B8F71DFD}"
+EndProject
+Project("{B7FD6AFB-238F-7633-CA20-B56BEAB15224}") = "Ball Practice", "Assembly-CSharp-Editor.csproj", "{8DB6574B-4D08-C93A-3827-E51BFF1B3BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8DC6273-A358-E397-EF80-0F736C9F8FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DC6273-A358-E397-EF80-0F736C9F8FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DC6273-A358-E397-EF80-0F736C9F8FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DC6273-A358-E397-EF80-0F736C9F8FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D2927E23-31DA-E561-2FCC-CEF8B8F71DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D2927E23-31DA-E561-2FCC-CEF8B8F71DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2927E23-31DA-E561-2FCC-CEF8B8F71DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2927E23-31DA-E561-2FCC-CEF8B8F71DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB6574B-4D08-C93A-3827-E51BFF1B3BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB6574B-4D08-C93A-3827-E51BFF1B3BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB6574B-4D08-C93A-3827-E51BFF1B3BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB6574B-4D08-C93A-3827-E51BFF1B3BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																														GlobalSection(MonoDevelopProperties) = preSolution
+																																																																													GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
