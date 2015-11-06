@@ -1,0 +1,33 @@
+Mono path[0] = 'C:/Users/meyer_000/Downloads/Ball Practice/SE2Final1.0_Data/Managed'
+Mono path[1] = 'C:/Users/meyer_000/Downloads/Ball Practice/SE2Final1.0_Data/Mono'
+Mono config path = 'C:/Users/meyer_000/Downloads/Ball Practice/SE2Final1.0_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/meyer_000/Downloads/Ball Practice/SE2Final1.0_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55499
+Broadcasting "[IP] 169.254.13.252 [Port] 55499 [Flags] 2 [Guid] 2250189146 [EditorId] 746705295 [Version] 1048832 [Id] WindowsPlayer(pc) [Debug] 0" to [169.254.255.255:54997]...
+PlayerConnection already initialized - listening to [169.254.13.252:55499]
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\meyer_000\Downloads\Ball Practice\SE2Final1.0_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.153 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.

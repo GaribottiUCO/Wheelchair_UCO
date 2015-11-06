@@ -1,26 +1,15 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 public class WheelChairPlayerController : MonoBehaviour {
 	private float rotateSpeed = 6;
 	private float forwardSpeed = 3;
-    private int count;
-
-    public Text countText;
-
-  //  Bonus bonus = new Bonus();
 
 	// Use this for initialization
 	void Start () {
-
 		player = GameObject.Find("WheelChairPlayer");
+		//rabbitplayer = GameObject.Find ("rabbit");
 		rigidBody = player.GetComponent<Rigidbody>();
-        //       bonus.setCount(0);
-        //       bonus.setCountText();
-        count = 0;
-        setCountText();
-
-    }
+	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -39,27 +28,12 @@ public class WheelChairPlayerController : MonoBehaviour {
 		}
 		if((horizontalInput > 0 || horizontalInput < 0)){
 			rigidBody.AddTorque(hAcceleration * rotateSpeed, ForceMode.Acceleration);
+
 		}
 		
 	}
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Pick Up"))
-        {
-            other.gameObject.SetActive(false);
-            count += 1;
-            setCountText();
-        }
-
-    }
-
-    void setCountText()
-    {
-        countText.text = "Count: " + count.ToString();
-    }
-
-    private GameObject player;
+	
+	private GameObject player;
 	private Rigidbody rigidBody;
 	private float force = 6;
 	private float turnForce;
