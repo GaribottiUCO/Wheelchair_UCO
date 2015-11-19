@@ -23,7 +23,7 @@ public class RabbitController : MonoBehaviour {
 		isMoving = true;
 		walk = 1f;
 		idle = 0f;
-		speed = 1f;
+		speed = 2f;
 		speedTimesDeltaTime = 0f;
 		anim.SetFloat ("TransitionFloat", walk);
 	}

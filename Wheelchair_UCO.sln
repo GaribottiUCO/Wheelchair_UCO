@@ -7,8 +7,6 @@ Project("{C4E042D3-D148-5156-BA3F-080061144D9C}") = "Wheelchair_UCO", "Assembly-
 EndProject
 Project("{C4E042D3-D148-5156-BA3F-080061144D9C}") = "Wheelchair_UCO", "Assembly-CSharp-Editor.csproj", "{3621A413-E90B-92E3-46F9-B98F46B6FFBC}"
 EndProject
-Project("{C4E042D3-D148-5156-BA3F-080061144D9C}") = "Wheelchair_UCO", "Assembly-UnityScript.unityproj", "{141A756F-1187-9E0E-C911-6A0FD9D78985}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,15 +25,11 @@ Global
 		{3621A413-E90B-92E3-46F9-B98F46B6FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3621A413-E90B-92E3-46F9-B98F46B6FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3621A413-E90B-92E3-46F9-B98F46B6FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{141A756F-1187-9E0E-C911-6A0FD9D78985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{141A756F-1187-9E0E-C911-6A0FD9D78985}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{141A756F-1187-9E0E-C911-6A0FD9D78985}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{141A756F-1187-9E0E-C911-6A0FD9D78985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -54,4 +48,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
