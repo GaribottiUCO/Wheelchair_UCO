@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scrips\PointTrigger.cs">
+    <Files>
+      <File FileName="Assets\Scrips\WheelChairPlayerController.cs" Line="30" Column="77" />
+      <File FileName="Assets\MrRabZ\Travis Stuff\RabbitController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\StarTrigger.cs" Line="10" Column="20" />
+      <File FileName="Assets\Scrips\AIPlayerController.cs" Line="60" Column="1" />
+      <File FileName="Assets\Scrips\MainGamePlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scrips\PointTrigger.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
