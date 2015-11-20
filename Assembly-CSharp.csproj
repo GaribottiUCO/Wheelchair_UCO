@@ -49,8 +49,8 @@
      <Compile Include="Assets\MrRabZ\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scrips\Bonus.cs" />
      <Compile Include="Assets\Scrips\CameraController.cs" />
+     <Compile Include="Assets\Scrips\MainUI.cs" />
      <Compile Include="Assets\Scrips\PlayerController.cs" />
-     <Compile Include="Assets\Scrips\PracticeMode.cs" />
      <Compile Include="Assets\Scrips\PracticeModeButton.cs" />
      <Compile Include="Assets\Scrips\PracticeModeUIButton.cs" />
      <Compile Include="Assets\Scrips\RabbitController.cs" />

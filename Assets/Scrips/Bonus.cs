@@ -10,6 +10,8 @@ public class Bonus : MonoBehaviour {
     private int numb1;
     private bool checkRepeate = true;
 
+
+
     public void setUp()
     {
         zero = GameObject.Find("Candy two");
