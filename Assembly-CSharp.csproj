@@ -45,10 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cha_Data\Script\ScreenShot.cs" />
      <Compile Include="Assets\MrRabZ\RabbitActionController.cs" />
      <Compile Include="Assets\MrRabZ\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scrips\Bonus.cs" />
      <Compile Include="Assets\Scrips\CameraController.cs" />
+     <Compile Include="Assets\Scrips\MainGameUserInfor.cs" />
      <Compile Include="Assets\Scrips\MainUI.cs" />
      <Compile Include="Assets\Scrips\PlayerController.cs" />
      <Compile Include="Assets\Scrips\PracticeModeButton.cs" />
@@ -58,6 +60,7 @@
      <Compile Include="Assets\Scrips\WheelChairPlayerController.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\MrRabZ\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -66,17 +69,11 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>G:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

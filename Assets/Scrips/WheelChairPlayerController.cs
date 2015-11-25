@@ -7,6 +7,8 @@ using System;
 public class WheelChairPlayerController : MonoBehaviour {
 
     public Text bonusCountText;
+    public GameObject imageObject; // Need to change a better name
+    //public  GameObject canve;
 
     private float rotateSpeed = 6;
 	private float forwardSpeed = 3;
@@ -19,6 +21,10 @@ public class WheelChairPlayerController : MonoBehaviour {
 		player = GameObject.Find("WheelChairPlayer");
 		//rabbitplayer = GameObject.Find ("rabbit");
 		rigidBody = player.GetComponent<Rigidbody>();
+        //canve = GameObject.Find("Canvas");
+
+        imageObject.SetActive(false);
+        //image.;
         bonusCount = 0;
         displayBonus();
         bonus.setUp();
@@ -59,6 +65,14 @@ public class WheelChairPlayerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             bonusCount += 1;
             displayBonus();
+        }
+
+       else if(other.gameObject.CompareTag("Final Line"))
+        {
+            other.gameObject.SetActive(false);
+            bonusCount += 1;
+            displayBonus();
+            imageObject.SetActive(true);
         }
     }
 
